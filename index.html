@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>⋆Eliana Infante⋆</title>
+    <meta name="title" content="Marita">
+    <link rel="icon" type="image/png" href="media/favicon.png" />
+    <!-- Metadatos Genéricos -->
+    <meta name="⋆Eliana Infante⋆" content="Portafolio estudiante Diseño UC">
+    <meta name="image" content="media/favicon.png">
+    <!-- Metadatos para Schema.org for Google -->
+    <meta itemprop="⋆Eliana Infante⋆" content="⋆Eliana Infante⋆">
+    <meta name="⋆Eliana Infante⋆" content="Portafolio estudiante Diseño UC">
+    <meta itemprop="image" content="media/favicon.png">
+    <!-- Metadatos para Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="⋆Eliana Infante⋆">
+    <meta name="twitter:description" content="Portafolio estudiante Diseño UC">
+    <meta name="twitter:image" content="media/favicon.png">
+    <!-- Metadatos para Open Graph general (Facebook y Pinterest) -->
+    <meta name="og:title" content="⋆Eliana Infante⋆">
+    <meta name="og:description" content="Portafolio estudiante Diseño UC">
+    <meta name="og:image" content="media/favicon.png">
+    <meta name="og:locale" content="es_CL">
+    <meta name="og:type" content="website">
+    <meta name="viewport" content="width=device-width, initial-scale=0.1"
+
+    <!-- Ahora vinculamos el estilo -->
+    <link rel="stylesheet" href="estilo.css" type="text/css">
+</head>
+
+<body>
+    <div id="contenido">
+        <header>
+            <h1>⋆Eliana Infante⋆</h1>
+            <h2>Portafolio estudiante Diseño UC</h2>
+        </header>
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+          <source src="media/video.mp4" type="video/mp4">
+        </video>
+
+        <h3>Quién soy? averiguémoslo</h3>
+        <div id="somos">
+
+            <div class="dupla primera">
+                <h6>⋆Eliana Infante⋆</h6>
+                <h5>Más que diseñando, estamos inventando</h5>
+                <p>Diseño Universidad Católica</p>
+                <p>Illustrator-Rhinoceros-Photoshop-InDesing-Fusion 360-Autocad-Adobe XD</p>
+                <address><a href="meinfante@uc.cl">meinfante@uc.cl</a></address>
+            </div>
+
+            <div class="dupla segunda">
+                <h4></h4>
+                <h5></h5>
+                <p></p>
+                <address><a</a></address>
+            </div>
+
+            <hr />
+        </div><!-- acá cerramos el div id="somos"-->
+
+        <h3>PORTAFOLIO</h3>
+
+        <div id="portafolio">
+
+            <!--acá se colocan y organizan las cosas con programación-->
+
+        </div><!-- acá cerramos el div id="portafolio"-->
+
+        <footer>
+            <p>Procesos de Producción · sección web · primer semestre · Eliana Infante</p>
+        </footer>
+
+    </div><!-- acá abajo cerramos el div id="contenido"-->
+
+    <!-- Lo que sigue SI es PROGRAMACIÓN -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
+    <script>
+        // ESTO SIRVE PARA ARREGLAR CADA ÍTEM DEL PORTAFOLIO COMO ALBAÑILERÍA (MASONRY)
+        window.onload = function() {
+            var container = document.querySelector('#portafolio');
+            var msnry = new Masonry(portafolio, {
+                itemSelector: '.item'
+            });
+        };
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="portafolio.js"></script>
+</body>
+
+</html>
